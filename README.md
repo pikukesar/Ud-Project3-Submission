@@ -2,22 +2,22 @@
 
 Below are the high level steps performed for this project.
 
-• Creation of a resource group and storage account in azure to store a terraform state file.
-• Publishing the provided package called FakeRestAPI as an artifact.
-• Build the following azure resources using terraform:
+- Creation of a resource group and storage account in azure to store a terraform state file.
+- Publishing the provided package called FakeRestAPI as an artifact.
+- Build the following azure resources using terraform:
 	○ Resource group
 	○ App service & App service plan
 	○ Network interface & Network security group
 	○ Public IP address
 	○ Linux based Virtual machine, Virtual network and Disc
 
-• Deployment of FakeRestAPI as an azure app service.
-• Running of postman/newman data validation tests against the http://dummy.restapiexample.com API 
-• Publishing a selenium script (written in python) as an artifact.
-• Installing selenium on the virtual machine created via execution of terraform and use it to run functional tests against the https://www.saucedemo.com website
-• Perform stress and endurance test using Jmeter and upload the results as artifact.
-• Setting up of email based alerting for the app service (manually in azure portal).
-• Setting up custom logging in log analytics to gather selenium logs from the VM (manually in azure portal).
+- Deployment of FakeRestAPI as an azure app service.
+- Running of postman/newman data validation tests against the http://dummy.restapiexample.com API 
+- Publishing a selenium script (written in python) as an artifact.
+- Installing selenium on the virtual machine created via execution of terraform and use it to run functional tests against the https://www.saucedemo.com website
+- Perform stress and endurance test using Jmeter and upload the results as artifact.
+- Setting up of email based alerting for the app service (manually in azure portal).
+- Setting up custom logging in log analytics to gather selenium logs from the VM (manually in azure portal).
 
 
 	○ All required inputs (including the public key for the VM, created via puttygen) is configured as variables in pipelines. Note that storagekey variable is kept as a 'placeholder', as it will be updated with the real value when the pipeline runs.
