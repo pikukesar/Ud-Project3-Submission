@@ -5,11 +5,11 @@ Below are the high level steps performed for this project.
 - Creation of a resource group and storage account in azure to store a terraform state file.
 - Publishing the provided package called FakeRestAPI as an artifact.
 - Build the following azure resources using terraform:
-	○ Resource group
-	○ App service & App service plan
-	○ Network interface & Network security group
-	○ Public IP address
-	○ Linux based Virtual machine, Virtual network and Disc
+	- Resource group
+	- App service & App service plan
+	- Network interface & Network security group
+	- Public IP address
+	- Linux based Virtual machine, Virtual network and Disc
 
 - Deployment of FakeRestAPI as an azure app service.
 - Running of postman/newman data validation tests against the http://dummy.restapiexample.com API 
