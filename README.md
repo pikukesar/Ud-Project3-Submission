@@ -1,6 +1,6 @@
 # Ensuring Quality Releases (Quality Assurance)
 
-Below are the high level steps performed for this project.
+### High Level Steps for the project
 
 - Creation of a resource group and storage account in azure to store a terraform state file.
 - Publishing the provided package called FakeRestAPI as an artifact.
@@ -51,7 +51,7 @@ The project is organized into 3 stages. Refer the below screen shots for tasks i
 
 ### Screen Shots
 
-References
+### References
 
 	1. https://www.srijan.net/blog/manual-api-testing-using-postman
 	2. https://medium.com/@gabriel.starczewski/jmeter-and-azure-pipelines-55f0594239ac
