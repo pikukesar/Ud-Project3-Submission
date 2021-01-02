@@ -173,5 +173,5 @@ stages:
       displayName: 'Run Sample Jmeter Test'
       inputs:
         targetType: 'inline'     
-        script: 'jmeter -n -t automatedtesting/jmeter/Starter.jmx'
+        script: 'jmeter -n -t automatedtesting/jmeter/Starter.jmx -l automatedtesting/jmeter/test.jtl -e -o automatedtesting/jmeter'
 
