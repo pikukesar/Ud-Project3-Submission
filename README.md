@@ -47,7 +47,9 @@ The project is organized into 3 stages. Refer the below screen shots for tasks i
 	2. Deploy
 	3. Post-Deployment
 	
-	
+
+
+### Screen Shots
 
 References
 
@@ -56,4 +58,5 @@ References
 	3. https://medium.com/swlh/running-jmeter-load-tests-and-publishing-jmeter-report-within-azure-devops-547b4b986361
 	4. https://azuredevopslabs.com/labs/vstsextend/selenium/
 	5. https://cloudskills.io/blog/terraform-azure-devops
+	6. https://medium.com/devcom/how-to-do-a-proper-website-stress-testing-using-jmeter-bd92171be4e3
 	
