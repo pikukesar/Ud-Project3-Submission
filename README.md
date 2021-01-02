@@ -1,3 +1,5 @@
+# Ensuring Quality Releases (Quality Assurance)
+
 Below are the high level steps performed for this project.
 
 • Creation of a resource group and storage account in azure to store a terraform state file.
@@ -23,7 +25,9 @@ Below are the high level steps performed for this project.
 	
 	
 Creation of ServicePrincipal (with contributor role) is done with below command
-		○ az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<subscription ID>"
+	```
+	az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<subscription ID>"
+	```
 
 From the results of the above command, we obtain the values for below variables as
 
