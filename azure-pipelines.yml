@@ -178,7 +178,7 @@ stages:
       displayName: 'Run Endurance Test'
       inputs:
         targetType: 'inline'     
-        script: 'jmeter -n -t automatedtesting/jmeter/Endurance_Test_Sample.jmx -Jresdir=automatedtesting/jmeter/pagenumber.csv -l automatedtesting/jmeter/Endurance_Test_Results/Endurance_test.jtl -e -o automatedtesting/jmeter/Endurance_Test_Results'
+        script: 'jmeter -n -t automatedtesting/jmeter/Endurance_Test_Sample.jmx -Jresdir=automatedtesting/jmeter/pagenumber.csv -l automatedtesting/jmeter/Endurance_Test_Results/Endurance_test.jtl -e -o automatedtesting/jmeter/Endurance_Result_Folder'
         
     - task: PublishBuildArtifacts@1
       inputs:
