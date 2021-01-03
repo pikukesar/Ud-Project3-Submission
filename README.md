@@ -51,6 +51,15 @@ The project is organized into 3 stages. Refer the below screen shots for tasks i
 
 ### Screen Shots
 
+Create Storage for persisting state for Terraform
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Terraform/Create%20Storage%20for%20terraform.PNG)
+Successful Terraform Init
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Terraform/Terraform%20Init.PNG)
+Sucecssful Terraform Apply
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Terraform/Terraform%20Apply.PNG)
+Note: All terraform files are uploaded in the github
+
+
 ### References
 
 	1. https://www.srijan.net/blog/manual-api-testing-using-postman
