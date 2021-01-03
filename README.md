@@ -47,7 +47,7 @@ The project is organized into 3 stages. Refer the below screen shots for tasks i
 	2. Deploy
 	3. Post-Deployment
 	
-
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Azure%20Devops%20Pipeline/Jobs_Stages.PNG)
 
 ### Screen Shots
 
