@@ -170,6 +170,12 @@ stages:
       inputs:
         jmeterVersion: 5.2.1
     - task: Bash@3
+      displayName: 'Run Jmeter Sample Test'
+      inputs:
+        targetType: 'inline'     
+        script: 'jmeter -n -t automatedtesting/jmeter/Starter.jmx -l automatedtesting/jmeter/report/Starter_results.jtl -e -o automatedtesting/jmeter/Starter'
+
+    - task: Bash@3
       displayName: 'Run Endurance Test'
       inputs:
         targetType: 'inline'     
