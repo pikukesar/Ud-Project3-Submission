@@ -59,6 +59,34 @@ Sucecssful Terraform Apply
 ![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Terraform/Terraform%20Apply.PNG)
 Note: All terraform files are uploaded in the github
 
+Publish Newman test results as artifact
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Postman/Publish%20Newman%20test%20results%20as%20artifact.PNG)
+Run Newman Postman Test
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Postman/Run%20Newman_postman%20test.PNG)
+
+Successful Triggering of Email alert for HTTP 404 alerts for App services
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Log%20Analytics/Alert%20Enabling%20Email.PNG)
+Custom Logging for selenium.logs
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Log%20Analytics/Custom_Alerting_Selenium_log_file.PNG)
+Logs visible for log analytics workspace
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Log%20Analytics/Log%20Analytics.PNG)
+
+
+Unfortunatly Jmeter Stress and Endurance tests are not working properly at my end. Hence attaching the sample results.
+Sample Jmeter Dashboard
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/JMeter/Sample%20Jmeter%20Dashboard.PNG)
+Successful completion of jmeter installation
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/JMeter/Install%20Jmeter%205_2_1.PNG)
+Completion of Sample Endurance Test
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/JMeter/Successfully%20Run%20Endurance%20test.PNG)
+Successful run of sample Jmeter test
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/JMeter/Successfully%20Run%20Jmeter%20Sample%20test.PNG)
+Selenium Test Results
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Selenium/Selenium%20Test%20results.PNG)
+Sample Test Results including pipeline execution status
+![alt text](https://github.com/lalprasad/Ud-Project3-Submission/blob/main/Screenshots%20and%20Logs/Azure%20Devops%20Pipeline/Sample%20Test%20Results.PNG)
+
+Azure Devops Pipeline yaml file,terraform files etc uploaded in git repo for review.
 
 ### References
 
