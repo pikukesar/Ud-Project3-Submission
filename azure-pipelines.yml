@@ -170,10 +170,10 @@ stages:
       inputs:
         jmeterVersion: 5.2.1
     - task: Bash@3
-      displayName: 'Run Sample Jmeter Test'
+      displayName: 'Run Endurance Test'
       inputs:
         targetType: 'inline'     
-        script: 'jmeter -n -t automatedtesting/jmeter/Starter.jmx -l automatedtesting/jmeter/results/test.jtl -e -o automatedtesting/jmeter/results'
+        script: 'jmeter -n -t automatedtesting/jmeter/Endurance_Test.jmx -Jresdir=automatedtesting/jmeter/endurancepages.csv -l automatedtesting/jmeter/report/enduranceresults.jtl -e -o automatedtesting/jmeter/endurancereport'
         
     - task: PublishBuildArtifacts@1
       inputs:
