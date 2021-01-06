@@ -122,6 +122,17 @@ stages:
         newman run -e automatedtesting/postman/postman-vars.json automatedtesting/postman/postman.json --reporters cli,junit --reporter-junit-export $(Build.SourcesDirectory)/automatedtesting/postman/postman.xml
         echo Newman tests run
       displayName: 'Run Newman/Postman'
+
+  - job: runNewman
+    displayName: 'Runing Regression and Data Validation Tests'
+    steps:
+    - script: |
+        newman run -e automatedtesting/postman/Walkthrough_StarterAPIs.postman_environment.json automatedtesting/postman/StarterAPIs.postman_collection.json --reporters cli,junit --reporter-junit-export $(Build.SourcesDirectory)/automatedtesting/postman/Regression_DataValidation.xml
+        echo Newman tests run
+      displayName: 'Run Regression/Data Validation'
+
+
+
     - task: PublishTestResults@2
       inputs:
         testResultsFormat: 'Junit'
