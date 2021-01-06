@@ -123,7 +123,9 @@ stages:
         echo Newman tests run
       displayName: 'Run Newman/Postman'
 
-  - job: runNewman
+
+
+  - job: Regression_DV_Test
     displayName: 'Runing Regression and Data Validation Tests'
     steps:
     - script: |
