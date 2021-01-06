@@ -4,8 +4,8 @@ resource "azurerm_app_service_plan" "main" {
   resource_group_name = var.resource_group
 
   sku {
-    tier = "Free"
-    size = "F1"
+    tier = "Standard"
+    size = "S1"
   }
 }
 
