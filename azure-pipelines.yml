@@ -53,7 +53,7 @@ stages:
     - task: ms-devlabs.custom-terraform-tasks.custom-terraform-release-task.TerraformTaskV1@0
       displayName: 'Executing Terraform : init'
       inputs:
-        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
         backendServiceArm: '$(azuresubscription)'
         backendAzureRmResourceGroupName: '$(terraformstoragerg)'
         backendAzureRmStorageAccountName: '$(terraformstorageaccount)'
@@ -69,7 +69,7 @@ stages:
       displayName: 'Executing Terraform : apply'
       inputs:
         command: apply
-        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
         commandOptions: '-auto-approve'
         environmentServiceNameAzureRM: '$(azuresubscription)'
         backendAzureRmResourceGroupName: '$(terraformstoragerg)'
